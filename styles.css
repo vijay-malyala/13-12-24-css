@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+:root {
+    --text-color: #fff;
+    --bg-color: #000;
+}
+
+.header {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+}
+
+.item>a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.item {
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+.item:hover {
+    background-color: #eee;
+}
+
+.item:hover>a {
+    color: #000;
+}
+
+
+.container {
+    background-image: url('https://www.w3schools.com/w3images/coffeehouse.jpg');
+    min-height: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.text {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 6px;
+    width: fit-content;
+}
+
+.sub-container {
+    font-size: 90px;
+    color: var(--text-color);
+    width: fit-content;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-container-2 {
+    color: var(--text-color);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+.span-container {
+    text-align: center;
+    padding: 5rem;
+}
+
+.span-container>span {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 4px;
+    display: inline-block;
+    letter-spacing: 6px;
+    font-size: 1.2rem;
+}
+
+.main-sub-container {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-sub-container>p {
+    width: 800px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.childs-sub{
+    width: 500px;
+    text-align: justify;
+}
+
+.main-sub-container-2 {
+    background-color: #eee;
+    border-left: 6px solid #ccc;
+    padding: 16px;
+    width: 500px;
+}
+
+.main-sub-container-2> :nth-child(1) {
+    font-style: italic;
+    margin-bottom: 14px;
+}
+
+.main-image-container {
+    width: 800px;
+}
+
+.main-image-container>img {
+    width: 500px;
+
+}
+
+.main-image-container>p {
+    margin: 16px 4px;
+}
+
+
+.footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 5rem;
+}
+
+.footer>p {
+    font-size: 1.5rem;
+}
+
+.footer a {
+    color: #000;
+}
+
+.footer a:hover {
+    color: #4CAF50;
+}
+
+.span-container2 {
+    text-align: center;
+    padding: 5rem;
+}
+
+.span-container2>span {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 4px;
+    display: inline-block;
+    letter-spacing: 6px;
+    font-size: 1.2rem;
+}
+
+.main-container2 {
+    box-shadow: 5px 5px 25px 5px lightgray;
+    gap: 10px;
+    width: 500px;
+    /* height: 100%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.item1 {
+    background-color: #6d404062;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.child-container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* height: 100%; */
+    gap: 40px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.main-container3{
+    width: 500px;
+}
+
+.main-container3>p {
+    font-style: normal;
+    text-align: start;
+}
+
+.main-container3 img {
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+.span-container3{
+    width: 500px;
+   text-align: justify;
+   margin-top: 15px;
+}
+.span-container3 span{
+background-color: #000;
+color: white;
+}
+.main-container4{
+    margin-top: 20px;
+    width: 500px;
+    font-size: small;
+}
+.main-container4>p {
+    font-style: normal;
+    text-align: start;
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #000;
+    color: white;
+    margin-top: 20px;
+    height:40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:lightgray;
+    color:black;
+}
+
+img {
+    
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+}
+
+img:hover {
+    transform: scale(1.1); /* Make the text larger on hover */
+}
