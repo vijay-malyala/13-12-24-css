@@ -1,10 +1,6 @@
 # Cafe Website
 
-
-<video controls>
-  <source src="assets/the_cafe_static_page.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Cafe Website Banner](https://www.w3schools.com/w3images/coffeeshop.jpg)
 
 ## Description
 This project is a simple, responsive website for a cafe. It showcases the cafe's details, menu, and contact information. The website includes the following sections:
