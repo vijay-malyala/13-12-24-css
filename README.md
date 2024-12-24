@@ -1,6 +1,10 @@
 # Cafe Website
 
-![Cafe Website Banner](https://www.w3schools.com/w3images/coffeeshop.jpg)
+
+<video controls>
+  <source src="assets/the_cafe_static_page.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Description
 This project is a simple, responsive website for a cafe. It showcases the cafe's details, menu, and contact information. The website includes the following sections:
@@ -46,8 +50,8 @@ The website uses the following Google Fonts:
 
 ## Screenshots
 ### Desktop View
-![Desktop Screenshot](assets\page.png)
+![Desktop Screenshot](assets/page.png)
 
 ### Mobile View
-![Mobile Screenshot](assets\mobile_view.jpeg)
+![Mobile Screenshot](assets/mobile_view.jpeg)
 
